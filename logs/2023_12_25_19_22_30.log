@@ -1,0 +1,25 @@
+[2023-12-25 19:22:32,640] 96 werkzeug - WARNING -  * Debugger is active!
+[2023-12-25 19:22:32,653] 96 werkzeug - INFO -  * Debugger PIN: 635-339-880
+[2023-12-25 19:22:44,451] 96 werkzeug - INFO - 192.168.1.48 - - [25/Dec/2023 19:22:44] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[2023-12-25 19:22:44,548] 96 werkzeug - INFO - 192.168.1.48 - - [25/Dec/2023 19:22:44] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-12-25 19:22:44,564] 96 werkzeug - INFO - 192.168.1.48 - - [25/Dec/2023 19:22:44] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-12-25 19:22:44,608] 96 werkzeug - INFO - 192.168.1.48 - - [25/Dec/2023 19:22:44] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-12-25 19:25:41,873] 96 werkzeug - INFO - 192.168.1.48 - - [25/Dec/2023 19:25:41] "GET /predict HTTP/1.1" 200 -
+[2023-12-25 19:26:05,099] 84 root - INFO - Dataframe Gathered
+[2023-12-25 19:26:05,653] 24 root - INFO - preprocessor and model is loaded
+[2023-12-25 19:26:05,653] 59 root - INFO - Handling outliers
+[2023-12-25 19:26:05,653] 68 root - ERROR - Error handling outliers: 'qty_hyphen_url'
+[2023-12-25 19:26:05,669] 33 root - INFO - Exception occured in prediction
+[2023-12-25 19:26:05,755] 96 werkzeug - INFO - 192.168.1.48 - - [25/Dec/2023 19:26:05] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[2023-12-25 19:26:05,806] 96 werkzeug - INFO - 192.168.1.48 - - [25/Dec/2023 19:26:05] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-12-25 19:26:05,814] 96 werkzeug - INFO - 192.168.1.48 - - [25/Dec/2023 19:26:05] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-12-25 19:26:05,843] 96 werkzeug - INFO - 192.168.1.48 - - [25/Dec/2023 19:26:05] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-12-25 20:00:59,321] 84 root - INFO - Dataframe Gathered
+[2023-12-25 20:00:59,459] 24 root - INFO - preprocessor and model is loaded
+[2023-12-25 20:00:59,459] 59 root - INFO - Handling outliers
+[2023-12-25 20:00:59,459] 68 root - ERROR - Error handling outliers: 'qty_hyphen_url'
+[2023-12-25 20:00:59,459] 33 root - INFO - Exception occured in prediction
+[2023-12-25 20:00:59,522] 96 werkzeug - INFO - 192.168.1.48 - - [25/Dec/2023 20:00:59] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[2023-12-25 20:00:59,585] 96 werkzeug - INFO - 192.168.1.48 - - [25/Dec/2023 20:00:59] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-12-25 20:00:59,592] 96 werkzeug - INFO - 192.168.1.48 - - [25/Dec/2023 20:00:59] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-12-25 20:00:59,641] 96 werkzeug - INFO - 192.168.1.48 - - [25/Dec/2023 20:00:59] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -

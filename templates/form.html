@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data Prediction Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    form {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+
+    .form-group {
+      margin-bottom: 15px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    input, select {
+      width: 100%;
+      padding: 8px;
+      box-sizing: border-box;
+    }
+
+    input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+
+    .result {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <form action="{{url_for('predict_datapoint')}}" method="POST">
+    
+    <div class="form-group">  
+      <label for="qty_slash_url">qty_slash_url:</label>
+      <input type="float" id="qty_slash_url" name="qty_slash_url" placeholder="Enter qty_slash_url value (float)" required>
+    </div>
+
+    <div class="form-group">  
+        <label for="length_url">length_url:</label>
+        <input type="float" id="length_url" name="length_url" placeholder="Enter length_url value (float)" required>
+      </div>
+    
+    <div class="form-group">  
+        <label for="qty_dot_domain">qty_dot_domain:</label>
+        <input type="float" id="qty_dot_domain" name="qty_dot_domain" placeholder="Enter qty_dot_domain value (float)" required>
+      </div>  
+    <div class="form-group">  
+      <label for="qty_dot_directory">qty_dot_directory:</label>
+      <input type="float" id="qty_dot_directory" name="qty_dot_directory" placeholder="Enter qty_dot_directory value (float)" required>
+    </div>
+    
+    <div class="form-group">
+      <label for="qty_hyphen_directory">qty_hyphen_directory:</label>
+      <input type="float" id="qty_hyphen_directory" name="qty_hyphen_directory" placeholder="Enter qty_hyphen_directory value (float)" required>
+    </div>
+  
+    <div class="form-group">
+        <label for="qty_underline_directory">qty_underline_directory:</label>
+        <input type="float" id="qty_underline_directory" name="qty_underline_directory" placeholder="Enter qty_underline_directory value (float)" required>
+      </div>
+    
+  
+   
+    
+    <div class="form-group">
+        <label for="asn_ip">asn_ip:</label>
+        <input type="float" id="asn_ip" name="asn_ip" placeholder="Enter asn_ip value (float)" required>
+      </div>
+    <div class="form-group">
+        <label for="time_domain_activation">time_domain_activation:</label>
+        <input type="float" id="time_domain_activation" name="time_domain_activation" placeholder="Enter time_domain_activation value (float)" required>
+      </div>
+    <div class="form-group">
+        <label for="time_domain_expiration">time_domain_expiration:</label>
+        <input type="float" id="time_domain_expiration" name="time_domain_expiration" placeholder="Enter time_domain_expiration value (float)" required>
+      </div>
+    <div class="form-group">
+        <label for="ttl_hostname">ttl_hostname:</label>
+        <input type="float" id="ttl_hostname" name="ttl_hostname" placeholder="Enter ttl_hostname value (float)" required>
+      </div>      
+
+    <div style="clear:both;"></div>
+    <input type="submit" value="Submit">
+  </form>
+
+  <div class="result">
+    {{final_result}}
+  </div>
+</body>
+</html>

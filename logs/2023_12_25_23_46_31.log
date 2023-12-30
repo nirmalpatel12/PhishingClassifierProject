@@ -1,0 +1,13 @@
+[2023-12-25 23:46:33,693] 96 werkzeug - WARNING -  * Debugger is active!
+[2023-12-25 23:46:33,709] 96 werkzeug - INFO -  * Debugger PIN: 640-767-258
+[2023-12-25 23:46:46,356] 96 werkzeug - INFO - 192.168.1.48 - - [25/Dec/2023 23:46:46] "GET / HTTP/1.1" 200 -
+[2023-12-25 23:47:02,453] 86 root - INFO - Dataframe Gathered
+[2023-12-25 23:47:02,970] 24 root - INFO - preprocessor and model is loaded
+[2023-12-25 23:47:02,970] 59 root - INFO - Handling outliers
+[2023-12-25 23:47:02,987] 68 root - ERROR - Error handling outliers: 'qty_percent_directory'
+[2023-12-25 23:47:02,992] 33 root - INFO - Exception occured in prediction
+[2023-12-25 23:47:03,039] 96 werkzeug - INFO - 192.168.1.48 - - [25/Dec/2023 23:47:03] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[2023-12-25 23:47:03,109] 96 werkzeug - INFO - 192.168.1.48 - - [25/Dec/2023 23:47:03] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-12-25 23:47:03,117] 96 werkzeug - INFO - 192.168.1.48 - - [25/Dec/2023 23:47:03] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-12-25 23:47:03,141] 96 werkzeug - INFO - 192.168.1.48 - - [25/Dec/2023 23:47:03] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-12-25 23:48:07,758] 96 werkzeug - INFO -  * Detected change in 'd:\\ml_projects\\phishingclassifier\\src\\pipelines\\prediction_pipeline.py', reloading

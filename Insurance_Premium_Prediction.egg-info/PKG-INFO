@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: Insurance-Premium-Prediction
+Version: 0.0.1
+Author: Patel Nirmalkumar Ketanbhai
+Author-email: patelnirmal917@gmail.com
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+Requires-Dist: seaborn
+Requires-Dist: ipykernel
+Requires-Dist: matplotlib
+Requires-Dist: flask
+Requires-Dist: dvc

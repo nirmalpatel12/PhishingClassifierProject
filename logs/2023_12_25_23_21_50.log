@@ -1,0 +1,24 @@
+[2023-12-25 23:21:52,824] 96 werkzeug - WARNING -  * Debugger is active!
+[2023-12-25 23:21:52,840] 96 werkzeug - INFO -  * Debugger PIN: 640-767-258
+[2023-12-25 23:22:03,073] 96 werkzeug - INFO - 192.168.1.48 - - [25/Dec/2023 23:22:03] "GET / HTTP/1.1" 200 -
+[2023-12-25 23:22:03,234] 96 werkzeug - INFO - 192.168.1.48 - - [25/Dec/2023 23:22:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2023-12-25 23:22:18,114] 84 root - INFO - Dataframe Gathered
+[2023-12-25 23:22:20,049] 24 root - INFO - preprocessor and model is loaded
+[2023-12-25 23:22:20,049] 59 root - INFO - Handling outliers
+[2023-12-25 23:22:20,049] 68 root - ERROR - Error handling outliers: 'qty_hyphen_url'
+[2023-12-25 23:22:20,049] 33 root - INFO - Exception occured in prediction
+[2023-12-25 23:22:20,247] 96 werkzeug - INFO - 192.168.1.48 - - [25/Dec/2023 23:22:20] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[2023-12-25 23:22:20,368] 96 werkzeug - INFO - 192.168.1.48 - - [25/Dec/2023 23:22:20] "GET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2023-12-25 23:22:20,402] 96 werkzeug - INFO - 192.168.1.48 - - [25/Dec/2023 23:22:20] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-12-25 23:22:20,510] 96 werkzeug - INFO - 192.168.1.48 - - [25/Dec/2023 23:22:20] "GET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2023-12-25 23:22:38,082] 84 root - INFO - Dataframe Gathered
+[2023-12-25 23:22:38,246] 24 root - INFO - preprocessor and model is loaded
+[2023-12-25 23:22:38,246] 59 root - INFO - Handling outliers
+[2023-12-25 23:22:38,246] 68 root - ERROR - Error handling outliers: 'qty_hyphen_url'
+[2023-12-25 23:22:38,246] 33 root - INFO - Exception occured in prediction
+[2023-12-25 23:22:38,325] 96 werkzeug - INFO - 192.168.1.48 - - [25/Dec/2023 23:22:38] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[2023-12-25 23:22:38,357] 96 werkzeug - INFO - 192.168.1.48 - - [25/Dec/2023 23:22:38] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-12-25 23:22:38,377] 96 werkzeug - INFO - 192.168.1.48 - - [25/Dec/2023 23:22:38] "GET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2023-12-25 23:22:38,455] 96 werkzeug - INFO - 192.168.1.48 - - [25/Dec/2023 23:22:38] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-12-25 23:22:38,502] 96 werkzeug - INFO - 192.168.1.48 - - [25/Dec/2023 23:22:38] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-12-25 23:40:51,288] 96 werkzeug - INFO -  * Detected change in 'd:\\ml_projects\\phishingclassifier\\src\\pipelines\\prediction_pipeline.py', reloading

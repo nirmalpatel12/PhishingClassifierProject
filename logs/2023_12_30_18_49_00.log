@@ -1,0 +1,18 @@
+[2023-12-30 18:49:01,177] 160 numexpr.utils - INFO - NumExpr defaulting to 4 threads.
+[2023-12-30 18:49:03,020] 224 werkzeug - WARNING -  * Debugger is active!
+[2023-12-30 18:49:03,036] 224 werkzeug - INFO -  * Debugger PIN: 369-520-209
+[2023-12-30 18:53:17,164] 86 root - INFO - Dataframe Gathered
+[2023-12-30 18:53:17,449] 54 root - INFO - Exception Occured in load_object function utils
+[2023-12-30 18:53:17,449] 33 root - INFO - Exception occured in prediction
+[2023-12-30 18:53:17,477] 224 werkzeug - INFO - 192.168.1.48 - - [30/Dec/2023 18:53:17] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[2023-12-30 18:53:17,677] 224 werkzeug - INFO - 192.168.1.48 - - [30/Dec/2023 18:53:17] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-12-30 18:53:17,692] 224 werkzeug - INFO - 192.168.1.48 - - [30/Dec/2023 18:53:17] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-12-30 18:53:17,700] 224 werkzeug - INFO - 192.168.1.48 - - [30/Dec/2023 18:53:17] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-12-30 18:53:22,077] 224 werkzeug - INFO - 192.168.1.48 - - [30/Dec/2023 18:53:22] "GET /predict HTTP/1.1" 200 -
+[2023-12-30 18:53:49,055] 86 root - INFO - Dataframe Gathered
+[2023-12-30 18:53:49,055] 54 root - INFO - Exception Occured in load_object function utils
+[2023-12-30 18:53:49,055] 33 root - INFO - Exception occured in prediction
+[2023-12-30 18:53:49,084] 224 werkzeug - INFO - 192.168.1.48 - - [30/Dec/2023 18:53:49] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[2023-12-30 18:53:49,157] 224 werkzeug - INFO - 192.168.1.48 - - [30/Dec/2023 18:53:49] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-12-30 18:53:49,167] 224 werkzeug - INFO - 192.168.1.48 - - [30/Dec/2023 18:53:49] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-12-30 18:53:49,186] 224 werkzeug - INFO - 192.168.1.48 - - [30/Dec/2023 18:53:49] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
